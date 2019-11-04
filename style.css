@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One),
+  @import url(https://fonts.googleapis.com/css?family=Berkshire+Swash|Leckerli+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html,
+body {
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("https://cdn.hipwallpaper.com/i/97/43/cg6uIy.jpg");
+  min-width: 320px;
+}
+
+#title {
+  font-weight: 900;
+  margin: 25px;
+  margin-top: -5px;
+  font-size: 2em;
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
+  text-shadow: 2px 0 30px #000;
+  letter-spacing: 2px;
+  color: white;
+  
+}
+
+#form-outer {
+  background-color: rgba(255, 240, 245, 75%);
+  border: 0px solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 75%;
+  max-width: 900px;
+  padding-top: 5px;
+  box-shadow: 0px 0px 10px 12px rgba(0, 0, 0, .5);
+}
+
+#description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 17px;
+  width: 50%;
+  
+}
+
+.rightTab {
+  color: green;
+  display: inline-block;
+  text-align: left;
+  width: 47.5%;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+#righttext {
+  margin-left: -15px;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: rgba(255, 240, 245, 25%);
+  border-radius: 10px;
+  color: green;
+}
+
+#dropdown {
+  width: 190px;
+  height: 40px;
+  margin: 9px;
+  padding: 7px;
+  border: 1px solid black;
+  background-color: rgba(255, 240, 245, 25%);
+  border-radius: 10px;
+  color: green;
+}
+
+.radio,
+.check {
+  position: relative;
+  left: -15px;
+  margin: 5px;
+  margin-top: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  position: relative;
+  vertical-align: top;
+  float: left;
+  left: -25px;
+  margin: 5px;
+  margin-top: 2px;
+  color: green;
+}
+
+#improve {
+  position: relative;
+  left: 4px;
+}
+
+#suggestion, #comment {
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+#comment {
+  height: 75px;
+  width: 410px;
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+#submit {
+  position: relative;
+  top: -18px;
+  width: 128px;
+  height: 30px;
+  background-color: #228b22;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+#submit:hover {
+  font-weight: bold;
+  background-color: #fff0f5;
+  color: #228b22;
+  letter-spacing: 1px;
+  border: 2px solid #228b22;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+  
+  #comment {
+    width: 100%;
+  }
+  
+  #suggestion {
+    width 50%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 95%;
+    float: left;
+    
+  }
+  .input-field {
+    width: 90%;
+  }
+  select {
+    width: 100%;
+  }
+   #comment {
+    width: 100%;
+  }
+  
+  #suggestion {
+    width 50%;
+}
